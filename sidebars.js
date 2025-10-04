@@ -207,7 +207,7 @@ const sidebars = {
         {
           type: 'link',
           label: 'Introduction',
-          href: 'knowhow/example/intro',//redirect with href
+          href: '/knowhow/example/intro',//redirect with href
         },
         {
           type: 'doc',

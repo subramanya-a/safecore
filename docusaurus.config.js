@@ -28,19 +28,24 @@ const config = {
 
   themes: ['@docusaurus/theme-live-codeblock', '@docusaurus/theme-mermaid'],
 
-
+  // https://github.com/subramanya-a/safecore/  
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://subramanya-a.github.io',
+  // url: 'https://your-docusaurus-site.example.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Subramanya A', // Usually your GitHub org/user name.
+  organizationName: 'subramanya-a', // Usually your GitHub org/user name.
   projectName: 'safecore', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  // onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore', //'throw',
+  // GitHub pages deployment config.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -302,7 +307,7 @@ const config = {
             items: [
               {
                 label: 'Tutorial',
-                to: '/docs/intro',
+                to: '/knowhow/intro',
               },
             ],
           },

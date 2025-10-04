@@ -36,7 +36,7 @@ const CopyMarkdownButton = ({ className, docId, docPath, Icon }) => {
 
     try {
       // Build the raw markdown URL from GitHub
-      const baseUrl = 'https://raw.githubusercontent.com/strapi/documentation/main/docusaurus';
+      const baseUrl = 'https://raw.githubusercontent.com/subramanya-a/safecore/refs/heads/master/';
       const markdownUrl = currentDocPath 
         ? `${baseUrl}/${currentDocPath}` 
         : `${baseUrl}/docs/${currentDocId}.md`;

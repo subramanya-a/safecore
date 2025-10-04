@@ -1,25 +1,15 @@
 admin:
   name: subramanya A
-  title: Tech Lead Engineer, Co-founder Coremonk, Safecore
-  url: https://linkedin.com/in/subramanyaa-101
-  image_url: https://github.com/yangshun.png
-  page: true
+  title: Tech Lead Engineer
+  url: https://www.linkedin.com/in/subramanya-a-101/
+  image_url: https://media.licdn.com/dms/image/v2/D5603AQEDquTDU0RSZg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1708353684420?e=1762387200&v=beta&t=Tnxq6VSXHmp2R27nliD434IvMSWQ4VRJfvgNgnTQgRM
+  # page: true
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/subramanya-a'
   socials:
     x: adminz
     linkedin: admin
     github: admin
-    newsletter: https://www.greatfrontend.com
+    # newsletter: https://www.greatfrontend.com
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
-  socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
