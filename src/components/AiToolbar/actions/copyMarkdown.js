@@ -1,3 +1,5 @@
+import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
+
 export const copyMarkdownAction = async (context) => {
   const { docId, docPath, updateActionState } = context;
   
@@ -19,7 +21,7 @@ export const copyMarkdownAction = async (context) => {
 
     const getCurrentDocPath = () => {
       if (typeof window === 'undefined') return null;
-      const path = window.location.pathname;
+      const path = window.location.pathname.replace('safecore', '');
       // Convert URL path to docs file path
       const cleanPath = path.replace(/^\/|\/$/g, '');
       return cleanPath ? `docs/${cleanPath}.md` : null;
@@ -28,7 +30,7 @@ export const copyMarkdownAction = async (context) => {
     // Use props or try to get from current URL
     const currentDocId = docId || getCurrentDocId();
     const currentDocPath = docPath || getCurrentDocPath();
-    
+
     if (!currentDocId && !currentDocPath) {
       throw new Error('Unable to determine document path');
     }

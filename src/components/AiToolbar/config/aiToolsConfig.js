@@ -15,7 +15,7 @@ export const aiToolsConfig = {
       description: 'Lightweight version for AI models',
       icon: 'file-text',
       actionType: 'navigate',
-      url: '/llms.txt'
+      url: '/safecore/llms.txt'
     },
     {
       id: 'view-llms-full',
@@ -23,7 +23,7 @@ export const aiToolsConfig = {
       description: 'Complete documentation for AI models',
       icon: 'file-text',
       actionType: 'navigate',
-      url: '/llms-full.txt'
+      url: '/safecore/llms-full.txt'
     }
   ]
 };
