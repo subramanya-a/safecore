@@ -60,41 +60,41 @@ const config = {
       src: '/js/redirector.js',
       async: false, // Load synchronously to ensure it runs before page navigation
     },
-    {
-      src: '/js/hotjar.js',
-      type: 'module',
-      async: true,
-    },
-    {
-      src: '/js/particle.js',
-      type: 'module',
-      async: true,
-    },
-    {
-      src: '/js/firework.js',
-      type: 'module',
-      async: true,
-    },
-    {
-      src: '/js/ball.js',
-      type: 'module',
-      async: true,
-    },
-    {
-      src: '/js/bar.js',
-      type: 'module',
-      async: true,
-    },
-    {
-      src: '/js/game.js',
-      type: 'module',
-      async: true,
-    },
-    {
-      src: '/js/particleProfiles.js',
-      type: 'module',
-      async: true,
-    },
+    // {
+    //   src: '/js/hotjar.js',
+    //   type: 'module',
+    //   async: true,
+    // },
+    // {
+    //   src: '/js/particle.js',
+    //   type: 'module',
+    //   async: true,
+    // },
+    // {
+    //   src: '/js/firework.js',
+    //   type: 'module',
+    //   async: true,
+    // },
+    // {
+    //   src: '/js/ball.js',
+    //   type: 'module',
+    //   async: true,
+    // },
+    // {
+    //   src: '/js/bar.js',
+    //   type: 'module',
+    //   async: true,
+    // },
+    // {
+    //   src: '/js/game.js',
+    //   type: 'module',
+    //   async: true,
+    // },
+    // {
+    //   src: '/js/particleProfiles.js',
+    //   type: 'module',
+    //   async: true,
+    // },
     {
       // src: 'https://unpkg.com/@phosphor-icons/web@2.0.3',
       src: 'https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1', // fallback
