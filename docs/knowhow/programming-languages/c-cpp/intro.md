@@ -11,4 +11,4 @@ tags:
  - concepts
 ---
 
-# Welcome to the CMAKE Documentation!
+# Welcome to the C/C++ Documentation!

@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Intro'
-description: Cmake related information and the technical information related to the setup, advanced usage, customization, and update of your devops application.
+description: lua related information and the technical information related to the setup, advanced usage, customization, and update of your devops application.
 displayed_sidebar: DocsySidebar
 slug: /knowhow/programming-languages/lua
 # pagination_next: <tba>
@@ -11,4 +11,4 @@ tags:
  - concepts
 ---
 
-# Welcome to the CMAKE Documentation!
+# Welcome to the Lua Documentation!

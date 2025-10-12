@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Introduction'
-description: The Strapi CMS documentation contains all the admin panel related information and the technical information related to the setup, advanced usage, customization, and update of your Strapi 5 application.
+description: The KnowHow documentation contains all the admin panel related information and the technical information related to the setup, advanced usage, customization, and update of your tools application.
 displayed_sidebar: DocsySidebar
 slug: /knowhow/intro
 # pagination_next: knowhow/quick-start
